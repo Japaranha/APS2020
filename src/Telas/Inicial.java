@@ -18,7 +18,7 @@ public class Inicial extends javax.swing.JFrame {
     public Inicial() {
         initComponents();
         setSize(850,580);
-        setResizable(false);
+        setResizable(true);
         
     }
 
@@ -52,13 +52,13 @@ public class Inicial extends javax.swing.JFrame {
 
         tabela1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null}
             },
             new String [] {
-                "Nomes", "Latitudes", "Longitudes", "Região", "País"
+                "Nomes", "Latitudes", "Longitudes", "Região", "País", "Municipio", "Bioma"
             }
         ));
         jScrollPane1.setViewportView(tabela1);
@@ -166,7 +166,7 @@ public class Inicial extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_NomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_NomeActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_btn_NomeActionPerformed
 
     /**
